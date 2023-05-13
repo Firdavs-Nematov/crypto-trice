@@ -4,10 +4,10 @@ import { Main } from "./main";
 
 export const App = () => {
     return (
-        <div>
+        <div className="container-fluid app">
             <Navbar />
             <div className="container">
-                <Main />
+                <Main key={"/"} />
             </div>
         </div>
     );
